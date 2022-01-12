@@ -25,12 +25,12 @@ const HemisphereDisplay =({latitude})=>{
     return(
         <div className={hemisphere}>
             <div className='ui raised text container segment'>
-            <div className='image'>
-                <img src={picture} style={{width:'60%'}} alt="pic"/>
-            </div>
-            <div className='ui teal bottom attached label'>
-                <h1>Hey you are in {latitude} ,{text} </h1>
-            </div>
+                <div className='image'>
+                    <img src={picture} style={{width:'60%'}} alt="pic"/>
+                </div>
+                <div className='ui teal bottom attached label'>
+                    <h1>Hey you are in {latitude} ,{text} </h1>
+                </div>
             </div>
         </div>
     )

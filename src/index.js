@@ -4,9 +4,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HemisphereDisplay from './HemisphereDisplay';
-
-
-
 // const App = () => {
 
     
@@ -16,7 +13,6 @@ import HemisphereDisplay from './HemisphereDisplay';
 //         </div>
 //     )
 // }
-
 class App extends React.Component{
 
     // constructor(props) {
